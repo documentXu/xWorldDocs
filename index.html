@@ -2,7 +2,7 @@
  * @Autor: liu_x25@ecidi.com
  * @Date: 2021-11-01 14:19:50
  * @LastEditors: liu_x25@ecidi.com
- * @LastEditTime: 2021-11-02 14:40:13
+ * @LastEditTime: 2021-11-03 19:45:19
  * @Description: 
 -->
 <!DOCTYPE html>
@@ -10,7 +10,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>xWorld</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -23,14 +23,22 @@
     window.$docsify = {
       name: 'xWorld',
       // repo: 'documentXu',
-      coverpage:false,//封面图
+      coverpage: false,//封面图
       loadSidebar: true,
-      subMaxLevel: 2
+      subMaxLevel: 2,
+      search: {
+        placeholder: '请输入关键词',
+        noData: '暂无结果',
+        depth: 3
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-sql.js"></script> -->
 </body>
 
 </html>
