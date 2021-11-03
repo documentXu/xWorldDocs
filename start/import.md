@@ -2,17 +2,22 @@
  * @Autor: liu_x25@ecidi.com
  * @Date: 2021-11-01 14:28:13
  * @LastEditors: liu_x25@ecidi.com
- * @LastEditTime: 2021-11-01 17:18:48
+ * @LastEditTime: 2021-11-02 14:42:16
  * @Description: s包-->
 ## 1、Cesium超图包引用
 
 > 复制 `public/Build` 文件夹至项目对应目录
 
-## 2、其他静态资源引用
+## 2、静态资源引用
 
 > 复制 `public/static/wall.gltf` 文件至项目对应目录下
 
-## 3、NPM资源包安装
+## 3、组件引用
+
+> 复制 `components/xWorld` 文件夹至项目对应目录
+
+
+## 4、NPM包安装
 
 *jquery树组件及glsl加载器*
 

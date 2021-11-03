@@ -2,20 +2,38 @@
  * @Autor: liu_x25@ecidi.com
  * @Date: 2021-11-01 16:40:02
  * @LastEditors: liu_x25@ecidi.com
- * @LastEditTime: 2021-11-01 17:10:07
+ * @LastEditTime: 2021-11-02 14:40:02
  * @Description: 
 -->
 
 > 组件说明
+## 图例
+
+*用于加载图例模块（根据后端配置场景及图层关联）*
+```vue
+<x-legend-model></x-legend-model>
+```
+## 属性
+
+*用于加载属性查询模块（根据后端配置字段显示构建属性及自定义属性）*
+```vue
+<x-attr-model></x-attr-model>
+```
+## 比例尺
+
+*用于加载比例尺及经纬度显示模块*
+```vue
+<x-tips-model></x-tips-model>
+```
 ## 侧边栏
 *用于加载左侧树组件容器*
-```html
+```vue
 <x-bar></x-bar>
 ```
 ## 侧边栏子模块
 *用于加载树组件子容器*
 
-```html
+```vue
 <x-bar-item module="Scene"></<x-bar-item>
 ```
 |  属性   | 必传 | 描述  |
@@ -34,12 +52,12 @@
 
 ## 工具栏
 *用于加载底部工具栏容器*
-```html
+```vue
 <x-tools></x-tools>
 ```
 ## 工具栏子模块
 *用于加载底部工具栏子模块*
-```html
+```vue
 <x-tools-item :module="Home"></x-tools-item>
 ```
 |  属性   | 必传 | 描述  |
@@ -76,7 +94,7 @@
 
 ## 多级工具栏
 *用于加载二级工具栏*
-```html
+```vue
 <x-tools-items :module="Home"></x-tools-items>
 ```
 |  属性   | 必传 | 描述  |
@@ -85,7 +103,7 @@
 
 
 > 示例代码
-```html
+```vue
 <x-world>
     <x-bar>
         <x-bar-item module="Scene" />
